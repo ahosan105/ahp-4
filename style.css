@@ -16,13 +16,13 @@ body{
 }
 .menu li{
     float: right;
-    padding: 10px;
-    margin-left: 20px;
+    padding:px;
+    margin-left: 12px;
 }
 .menu li a{
     font-weight: bold;
     text-decoration:none;
-    font-size: 20px;
+    font-size: 19px;
 }
 .menu li:hover{
     background-color: rgb(248, 243, 239);
@@ -55,10 +55,158 @@ padding: 2px;
     text-align: right;
 }
 .div4{
+
     text-align: justify;
 }
 h1{
     text-align: center;
 }
+/* national flag  */
+.green{margin:0 auto; 
+    width:50%; height:200px; 
+    background:green;
+     margin-top:60px;
+     position:relative;}
+.red{height:150px;
+     width:150px; 
+     border-radius:3000px;
+      background:red;
+       margin-left:280px;
+       margin-top:25px; 
+       position:absolute}
+
+/* sudo element  */
+.h1::before{
+    content: "Before element";
+    background-color: rgb(112, 189, 220);
+}
+.h2::after{
+    content: "after element";
+    background-color: rgb(240, 3, 3);
+}
+.smainele{
+    display: flex;
+    flex-basis: 45%;
+    margin: 5px;
+}
+.sudo_class{
+    border: 2px solid red;
+}
+/* sudo class  */
+ul:first-child {
+    background-color: rgb(245, 12, 12);
+    color: rgb(27, 175, 201);
+}
+ul:last-child{
+    background-color: yellowgreen;
+    color: white;
+}
+
+/* focus  */
+input:focus{
+    color: red;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+.s1{
+    float: left;
+    width: 31%;
+    border: 3px solid orange;
+    padding: 2px;
+    margin: 10px;
+    height: 200px;
+    overflow: auto;
+}
+.s2{
+    overflow: scroll;
+}
+.s3{
+overflow: hidden;
+}
+.h1{
+    text-align: center;
+    font-size: 30px;
+    background-color: lightgreen;
+}
+.w1{
+    text-align: center;
+    font-size: 30px;
+   
+
+}
+span{
+    color: khaki;
+}
+.d1{
+    float: left;
+    border: 2px solid red;
+    margin: 1px;
+    width: 32%;
+    text-align: center;
+   
+}
+.d2{
+    background-color: yellow;
+    -ms-transform: rotate(70deg); /* IE 9 */
+    transform: rotate(10deg);
+    
+}
+ .d3:hover{
+    background-color: rgb(71, 18, 156);
+    -ms-transform: rotate(170deg); /* IE 9 */
+    transform: rotate(3deg);
+}
+.d4{
+    background-color: rgb(136, 20, 49);
+    -ms-transform: rotate(90deg); /* IE 9 */
+    transform: rotate(-20deg);
+}
+td:hover{
+background-color: rosybrown;
+color: seashell;
+}
+tr{
+    background-image: linear-gradient(to right, rgb(85, 189, 51) , rgb(112, 189, 220));
+    text-decoration: none;
+}
+table{
+    text-decoration: none;
+}
+#hover{
+
+display: flex;
+
+}
+
+.ho {
+
+    width: 300px;
+    height: 300px;
+    border: 4px solid rosybrown;
+    margin: auto;
+    background-color: skyblue;
+}
+.ho:hover+ .ho1{
+    background-color: rgb(0, 0, 0)
+
+}
+.ho:hover+ .ho1 + .ho3{
+    background-color: rgb(0, 0, 0)
+}
+.uu{
+    position: relative;
+ top: 10px;
+ left: 300px;
+
+}
+
 
 
