@@ -76,11 +76,11 @@ h1{
        position:absolute}
 
 /* sudo element  */
-.h1::before{
+.h11::before{
     content: "Before element";
     background-color: rgb(112, 189, 220);
 }
-.h2::after{
+.h21::after{
     content: "after element";
     background-color: rgb(240, 3, 3);
 }
